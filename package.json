@@ -1,0 +1,23 @@
+{
+  "name": "clear-my-blocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app",
+    "start": "node ./src/app",
+    "build": "npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "esm-hook": "^0.1.4",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
